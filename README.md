@@ -5,7 +5,8 @@ Para visualizar la pagina desplegada en GitHub Pages puedes dar click en el sigu
 
 **¡Bienvenidos a mi web personal!** 🚀 Aquí encontrarás una combinación de todo lo que me apasiona: proyectos, habilidades, contenido educativo y hasta una sección de juegos. Todo diseñado con las últimas tecnologías para ofrecerte la mejor experiencia. 🎉
 
-![image](https://github.com/user-attachments/assets/424346dd-b850-48cb-94e2-577c48788586)
+![image](https://github.com/user-attachments/assets/fd19c885-e25a-4c05-977b-a82adfa96e90)
+
 
 ## 🛠️ Tecnologías que Usé:
 - **Next.js** para una web súper rápida y optimizada ⚡.
