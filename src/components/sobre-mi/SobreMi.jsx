@@ -2,12 +2,11 @@ import Habilidades from "./Habilidades";
 import ImagenesSobreMi from "./ImagenesSobreMi";
 import UnPocoDeMi from "./UnPocoDeMi";
 import AcercaDeMi from "./AcercaDeMi";
-import Image from "next/image";
 import ImagenPrincipal from "./ImagenPrincipal";
 
 const SobreMi = () => {
   return (
-    <div className="w-10/12 ">
+    <div className="lg:w-8/12 md:w-8/12 sm:w-11/12">
       <ImagenPrincipal />
       <AcercaDeMi />
       <UnPocoDeMi />

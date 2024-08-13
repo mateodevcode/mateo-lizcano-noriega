@@ -66,9 +66,6 @@ export const skills = [
     nombre: "PostgreSQL",
   },
   {
-    nombre: "GraphQL",
-  },
-  {
     nombre: "Express.js",
   },
   {
@@ -81,64 +78,17 @@ export const skills = [
     nombre: "GitHub",
   },
   {
-    nombre: "GitLab",
-  },
-  {
     nombre: "Trello",
   },
   {
     nombre: "Slack",
   },
-  {
-    nombre: "Microsoft Teams",
-  },
-  {
-    nombre: "Google Workspace",
-  },
+
   {
     nombre: "Microsoft Office",
   },
   {
     nombre: "Excel",
-  },
-  {
-    nombre: "Word",
-  },
-  {
-    nombre: "PowerPoint",
-  },
-  {
-    nombre: "Outlook",
-  },
-  {
-    nombre: "Google Sheets",
-  },
-  {
-    nombre: "Docs",
-  },
-  {
-    nombre: "Slides",
-  },
-  {
-    nombre: "Drive",
-  },
-  {
-    nombre: "Meet",
-  },
-  {
-    nombre: "Forms",
-  },
-  {
-    nombre: "Google Cloud",
-  },
-  {
-    nombre: "Amazon Web Services",
-  },
-  {
-    nombre: "Azure",
-  },
-  {
-    nombre: "Heroku",
   },
   {
     nombre: "Vercel",

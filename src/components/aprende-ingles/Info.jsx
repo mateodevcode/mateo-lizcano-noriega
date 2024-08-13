@@ -32,7 +32,7 @@ const Info = ({ estado }) => {
             <h2 className="lg:text-5xl md:text-5xl sm:text-3xl text-center font-mono">
               Guia de uso
             </h2>
-            <div>
+            <div className="px-3">
               <InfoDetalle estado={estado} />
             </div>
             <div className="flex flex-row justify-end items-center w-full p-5">

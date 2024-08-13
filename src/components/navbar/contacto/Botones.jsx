@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BsLinkedin } from "react-icons/bs";
+import { BsLinkedin, BsWhatsapp } from "react-icons/bs";
 
 const Botones = ({ cerrar }) => {
   return (
@@ -11,6 +11,14 @@ const Botones = ({ cerrar }) => {
         rel="noopener noreferrer"
       >
         <BsLinkedin className="cursor-pointer text-2xl" />
+      </Link>
+      <Link
+        href="https://api.whatsapp.com/message/YZ472YWAWRA5E1?autoload=1&app_absent=0"
+        className="bg-blue-600 dark:bg-green-600 text-white dark:text-white font-semibold px-4 py-2 rounded-md cursor-pointer hover:bg-blue-600/50 dark:hover:bg-green-600/50 mx-2 select-none"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <BsWhatsapp className="cursor-pointer text-2xl" />
       </Link>
       <div className="flex flex-row justify-end items-center">
         <div

@@ -10,7 +10,7 @@ import {
 
 const GuiaEasyEnglish_TV = () => {
   return (
-    <div className="flex flex-col justify-center items-start lg:text-base md:text-base sm:text-xs mt-10 font-mono w-full">
+    <div className="flex flex-col justify-center items-start lg:text-xl md:text-xl sm:text-base mt-10 font-mono w-full">
       <p className="italic">
         Esta guía está diseñada para orientarte sobre cómo usar o sacarle el
         máximo provecho al recurso.

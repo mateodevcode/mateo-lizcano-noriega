@@ -1,25 +1,23 @@
 "use client";
-import { enlaces } from "@/data/enlaces.navbar";
 import {
   Drawer,
   DrawerCloseButton,
   DrawerContent,
-  DrawerHeader,
   DrawerOverlay,
   useDisclosure,
 } from "@chakra-ui/react";
-import Link from "next/link";
 import { MdMenu } from "react-icons/md";
 import Enlace from "./Enlace";
 import Games from "../games/Games";
 import CardContacto from "../contacto/CardContacto";
+import Recursos from "../recursos/Recursos";
 
 const Menu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
     <>
-      <MdMenu onClick={onOpen} className={`mx-2 cursor-pointer text-2xl`} />
+      <MdMenu onClick={onOpen} className="mx-2 cursor-pointer text-2xl" />
       <Drawer isOpen={isOpen} placement="left" onClose={onClose}>
         <DrawerOverlay />
         <DrawerContent className="dark:bg-black/90 bg-white/90">
@@ -31,7 +29,7 @@ const Menu = () => {
               <Enlace nombre="Inicio" LinkTo="/" />
               <Enlace nombre="Sobre mí" LinkTo="/sobre-mi" />
               <Enlace nombre="Portafolio" LinkTo="/portafolio" />
-              <Enlace nombre="Aprende programación" LinkTo="/" />
+              <Recursos onClose={onClose} />
               <Games />
               <CardContacto />
             </div>

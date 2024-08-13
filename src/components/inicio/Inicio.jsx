@@ -2,6 +2,7 @@ import React from "react";
 import Saludo from "./Saludo";
 import TextoSecreto from "./TextoSecreto";
 import Skills from "./Skills";
+import Link from "next/link";
 
 const Inicio = () => {
   return (
@@ -10,8 +11,8 @@ const Inicio = () => {
         <Saludo />
         <p className="w-full lg:text-xl md:text-xl sm:text-sm">
           <strong>MateoDev</strong> es solo el reflejo profesional de toda mi trayectoria, un
-          espacio donde podrás ver mis <strong className="text-green-500">proyectos</strong> y disfrutar del aprendizaje que
-          brindamos a través de todos los recursos obtenidos de esta <strong className="text-blue-500">comunidad.</strong>
+          espacio donde podrás ver mis <Link href="/portafolio"><strong className="text-green-500">proyectos</strong></Link> y disfrutar del aprendizaje que
+          brindamos a través de todos los recursos obtenidos de esta <Link href="/"><strong className="text-blue-500">comunidad.</strong></Link>
         </p>
         <TextoSecreto />
       </div>

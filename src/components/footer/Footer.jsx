@@ -14,7 +14,7 @@ function Footer() {
             href={"https://one-second-cybersecurity.vercel.app/"}
             target="_blank"
           >
-            <strong className="text-blue-800">One Second CyberSecurity</strong>
+            <strong className="text-blue-600">One Second CyberSecurity</strong>
           </Link>{" "}
           © 2024.
         </p>
