@@ -20,7 +20,7 @@ export const recursosAprenderIngles = [
         Estudia a tu ritmo y de manera autónoma mediante ejercicios
         autocorrectivos.`,
     boton: "Descargar",
-    Url: "apkRS.apk",
+    Url: "https://drive.google.com/file/d/181-MsUS3egis55JvYT-IPP29k9krqI-s/view?usp=sharing",
     download: "apkRS.apk",
     estado: "rosseta",
   },
