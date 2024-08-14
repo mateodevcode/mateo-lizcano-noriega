@@ -18,6 +18,12 @@ export const proyectos_terminados = [
     imagen: "/pages/curriculum-vitae.png",
     github: "https://github.com/mateodevcode/curriculum-vitae-react",
   },
+  {
+    titulo: "Juego Snake 🐍",
+    url: "https://mateodevcode.github.io/juego-snake/",
+    imagen: "/pages/juego-snake.png",
+    github: "https://github.com/mateodevcode/juego-snake"
+  }
 ];
 
 export const proyectos_en_proceso = [

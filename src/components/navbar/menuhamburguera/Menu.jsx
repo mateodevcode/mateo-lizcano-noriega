@@ -30,7 +30,7 @@ const Menu = () => {
               <Enlace nombre="Sobre mí" LinkTo="/sobre-mi" />
               <Enlace nombre="Portafolio" LinkTo="/portafolio" />
               <Recursos onClose={onClose} />
-              <Games />
+              <Games onClose={onClose} />
               <CardContacto />
             </div>
           </div>

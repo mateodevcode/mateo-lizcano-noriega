@@ -23,7 +23,7 @@ const Botones = ({ cerrar }) => {
       <div className="flex flex-row justify-end items-center">
         <div
           className="bg-blue-600 dark:bg-green-600 text-white dark:text-white font-semibold px-4 py-2 rounded-md cursor-pointer hover:bg-blue-600/50 dark:hover:bg-green-600/50 mx-2 select-none"
-          onClick={() => window.open("/mateo-lizcano.pdf")}
+          onClick={() => window.open("https://drive.google.com/file/d/181-MsUS3egis55JvYT-IPP29k9krqI-s/view?usp=sharing")}
         >
           Descargar
         </div>
