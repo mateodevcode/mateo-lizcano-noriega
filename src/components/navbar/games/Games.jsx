@@ -11,7 +11,7 @@ const Games = ({ onClose }) => {
       <MenuButton
         as={Button}
         rightIcon={<IoIosArrowDown />}
-        className="dark:hover:text-blue-600 hover:text-blue-700 font-semibold lg:my-0 md:my-0 sm:my-4 mx-2"
+        className="hover:text-blue-600 font-semibold lg:my-0 md:my-0 sm:my-4 mx-2"
       >
         Games
       </MenuButton>

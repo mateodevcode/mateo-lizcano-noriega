@@ -24,7 +24,13 @@ export const recursos = [
     LinkTo: "/comunidad",
     logo: "/logo/logo.png",
   },
+  {
+    nombre: "Colaboradores",
+    LinkTo: "/colaboradores",
+    logo: "/logo/logo.png",
+  },
 ];
+
 
 export const games = [
   {
