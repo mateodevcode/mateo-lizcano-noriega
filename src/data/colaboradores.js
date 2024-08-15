@@ -6,5 +6,4 @@ export const colaboradores = [
     linkedin: "https://www.linkedin.com/in/reineiro-monterrosa/",
     github: "https://github.com/ReyMQ28",
   },
-  
 ];

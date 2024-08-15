@@ -15,7 +15,7 @@ import img_5 from "../../public/yo/img-5.jpeg";
 export const imagenes_perfil = [
   {
     original: foto_1,
-    originalAlt: "Foto formal",
+    originalAlt: "Foto formal", 
   },
   {
     original: foto_2,
@@ -46,22 +46,22 @@ export const imagenes_perfil = [
 export const imagenes_sobre_mi = [
   {
     original: img_1,
-    originalAlt: "Estudiando",
+    originalAlt: "Dando mis primeros en la programación",
   },
   {
     original: img_2,
-    originalAlt: "Manjeando moto y de camino a jugar basketball",
+    originalAlt: "Feliz de camino a la cancha, en mi bebé 🏍️",
   },
   {
     original: img_3,
-    originalAlt: "Sonriendo",
+    originalAlt: "Disfrutando de estar con la familia",
   },
   {
     original: img_5,
-    originalAlt: "En la playa",
+    originalAlt: "De paseo en las playas de Santa Marta",
   },
   {
     original: img_4,
-    originalAlt: "Con mi pareja",
+    originalAlt: "Celebrando mi grado con mi prometida ❤️😊",
   },
 ];

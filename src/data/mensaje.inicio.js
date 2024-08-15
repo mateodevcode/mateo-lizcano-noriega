@@ -2,7 +2,6 @@ export const mensaje_inicio = [
   "Hola, Soy <strong>Mateo Lizcano</strong>",
   "Profesional en <strong>Negocios y Dirección de empresas</strong>",
   "<strong>Desarrollador Web y Analista de Ciberseguridad</strong>",
-  "y amante de la <strong>Ciberseguridad</strong>",
   "<strong>MateoDev</strong>",
 ];
 

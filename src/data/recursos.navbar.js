@@ -29,8 +29,17 @@ export const recursos = [
     LinkTo: "/colaboradores",
     logo: "/logo/logo.png",
   },
+  {
+    nombre: "Noticias",
+    LinkTo: "https://one-second-cybersecurity.vercel.app/noticias",
+    logo: "/logo/logo.png",
+  },
+  {
+    nombre: "Blog",
+    LinkTo: "https://one-second-cybersecurity.vercel.app/blog",
+    logo: "/logo/logo.png",
+  },
 ];
-
 
 export const games = [
   {
