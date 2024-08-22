@@ -20,6 +20,11 @@ export const recursos = [
     logo: "/logo/logo.png",
   },
   {
+    nombre: "Wonly",
+    LinkTo: "https://wonly.vercel.app",
+    logo: "/logo/logo-wonly.png",
+  },
+  {
     nombre: "Comunidad",
     LinkTo: "/comunidad",
     logo: "/logo/logo.png",
@@ -38,6 +43,11 @@ export const recursos = [
     nombre: "Blog",
     LinkTo: "https://one-second-cybersecurity.vercel.app/blog",
     logo: "/logo/logo.png",
+  },
+  {
+    nombre: "Colores Aleatorios",
+    LinkTo: "https://mateodevcode.github.io/color-aleatorio",
+    logo: "/logo/color-aleatorio.png",
   },
 ];
 
