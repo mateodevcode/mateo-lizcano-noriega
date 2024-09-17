@@ -15,7 +15,7 @@ const Games = ({ onClose }) => {
       >
         Games
       </MenuButton>
-      <MenuList className="bg-blue-800 dark:bg-green-900 text-white rounded-md mt-2 w-66">
+      <MenuList className="bg-blue-800 dark:bg-green-900 text-white rounded-md mt-2 w-40">
         {games.map((game, index) => (
           <MenuItem
             key={index}

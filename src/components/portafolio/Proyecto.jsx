@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BsGithub } from "react-icons/bs";
@@ -11,9 +12,9 @@ const Proyecto = ({ titulo, url, github, imagen }) => {
       </div>
       <div className="w-11/12 mt-10">
         <Link href={url} target="_blank">
-          <img
+          <Image
             src={imagen}
-            alt="Proyecto 1"
+            alt={titulo}
             width={900}
             height={900}
             className="w-full"

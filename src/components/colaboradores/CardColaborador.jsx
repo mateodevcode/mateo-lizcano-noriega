@@ -17,10 +17,10 @@ const CardColaborador = ({ nombre, rol, img, linkedin, github }) => {
       <p className="text-xs">{rol}</p>
       <div className="flex flex-row justify-center items-center mt-6">
         <Link href={linkedin} target="_blank">
-          <BsLinkedin className="mx-2 text-xl text-blue-600/50" />
+          <BsLinkedin className="mx-2 text-xl hover:text-blue-600/50 text-blue-600" />
         </Link>
         <Link href={github} target="_blank">
-          <BsGithub className="mx-2 text-xl text-gray-600/50" />
+          <BsGithub className="mx-2 text-xl hover:text-gray-600/50 text-gray-600" />
         </Link>
       </div>
     </div>
