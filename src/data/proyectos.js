@@ -1,5 +1,11 @@
 export const proyectos_terminados = [
   {
+    titulo: "Peliculas y series - Wonly",
+    url: "https://wonly.vercel.app/",
+    imagen: "/pages/wonly.png",
+    github: "https://github.com/mateodevcode/wonly",
+  },
+  {
     titulo: "Movimiento Dynamos - Iglesia Cristiana",
     url: "https://dynamos-rho.vercel.app",
     imagen: "/pages/dynamos.png",
@@ -10,12 +16,6 @@ export const proyectos_terminados = [
     url: "https://mateodevcode.github.io/tetris-js",
     imagen: "/pages/tetris.png",
     github: "https://github.com/mateodevcode/tetris-js",
-  },
-  {
-    titulo: "Peliculas y series - Wonly",
-    url: "https://wonly.vercel.app/",
-    imagen: "/pages/wonly.png",
-    github: "https://github.com/mateodevcode/wonly",
   },
   {
     titulo: "Curriculum Vitae",
