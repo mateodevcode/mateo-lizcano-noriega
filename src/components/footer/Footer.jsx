@@ -9,14 +9,14 @@ function Footer() {
       </div>
       <div className="text-center text-sm mt-5 mb-10 flex flex-row justify-center items-center">
         <p className="select-none">
-          Desarrollado por{" "}
+        © 2024 Todos los derechos reservados. Desarrollado por{" "}
           <Link
             href={"https://one-second-cybersecurity.vercel.app/"}
             target="_blank"
           >
             <strong className="text-blue-600">One Second CyberSecurity</strong>
           </Link>{" "}
-          © 2024.
+         .
         </p>
       </div>
     </div>

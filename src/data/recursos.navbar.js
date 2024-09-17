@@ -20,9 +20,14 @@ export const recursos = [
     logo: "/logo/logo.png",
   },
   {
-    nombre: "Wonly",
+    nombre: "Peliculas y Series - Wonly",
     LinkTo: "https://wonly.vercel.app",
     logo: "/logo/logo-wonly.png",
+  },
+  {
+    nombre: "Emulador Windows XP",
+    LinkTo: "https://pranx.com/windows-xp-simulator",
+    logo: "/logo/logo.png",
   },
   {
     nombre: "Comunidad",

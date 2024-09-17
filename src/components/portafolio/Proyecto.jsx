@@ -23,12 +23,12 @@ const Proyecto = ({ titulo, url, github, imagen }) => {
       <div className="flex flex-row justify-center items-center">
         {github && (
           <Link href={github} target="_blank">
-            <BsGithub className="lg:text-4xl md:text-4xl sm:text-2xl lg:mt-10 md:mt-10 sm:mt-5 mx-2" />
+            <BsGithub className="lg:text-4xl md:text-4xl sm:text-2xl lg:mt-10 md:mt-10 sm:mt-5 mx-2 hover:text-gray-500" />
           </Link>
         )}
         {url && (
           <Link href={url} target="_blank">
-            <TbWorldWww className="lg:text-4xl md:text-4xl sm:text-2xl lg:mt-10 md:mt-10 sm:mt-5 mx-2" />
+            <TbWorldWww className="lg:text-4xl md:text-4xl sm:text-2xl lg:mt-10 md:mt-10 sm:mt-5 mx-2 hover:text-gray-500" />
           </Link>
         )}
       </div>

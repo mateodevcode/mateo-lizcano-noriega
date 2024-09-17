@@ -15,7 +15,7 @@ const Recursos = ({ onClose }) => {
       >
         Recursos
       </MenuButton>
-      <MenuList className="bg-blue-800 dark:bg-green-900 text-white rounded-md mt-2 w-66">
+      <MenuList className="bg-blue-800 dark:bg-green-900 text-white rounded-md mt-2 w-72">
         {recursos.map((recurso, index) => (
           <MenuItem key={index} className="dark:hover:bg-green-600/20 hover:bg-blue-600/20 rounded-md">
             <Link href={recurso.LinkTo} className="mx-3 my-1 flex flex-row justify-between items-center w-full" onClick={onClose}>
