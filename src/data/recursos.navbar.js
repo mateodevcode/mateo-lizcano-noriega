@@ -20,7 +20,7 @@ export const recursos = [
     logo: "/logo/logo.png",
   },
   {
-    nombre: "Peliculas y Series - Wonly",
+    nombre: "Wonly - Series y Películas",
     LinkTo: "https://wonly.vercel.app",
     logo: "/logo/logo-wonly.png",
   },

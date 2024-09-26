@@ -15,8 +15,8 @@ const Proyecto = ({ titulo, url, github, imagen }) => {
           <Image
             src={imagen}
             alt={titulo}
-            width={900}
-            height={900}
+            width={2400}
+            height={1800}
             className="w-full"
           />
         </Link>

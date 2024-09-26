@@ -1,6 +1,6 @@
 export const proyectos_terminados = [
   {
-    titulo: "Peliculas y series - Wonly",
+    titulo: "Wonly - Series y Películas 🎬",
     url: "https://wonly.vercel.app/",
     imagen: "/pages/wonly.png",
     github: "https://github.com/mateodevcode/wonly",
