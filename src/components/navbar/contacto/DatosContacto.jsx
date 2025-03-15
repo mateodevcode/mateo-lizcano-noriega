@@ -7,7 +7,7 @@ const DatosContacto = ({ cerrar }) => {
   return (
     <>
       <div className="flex flex-row justify-center items-center text-gray-950 dark:text-white">
-        <div className="shadow-lg rounded-lg bg-gradient-to-br from-emerald-600 to-emerald-800 flex flex-col justify-center items-center lg:w-[450px] md:w-[450px] sm:w-full">
+        <div className="shadow-lg rounded-lg bg-gradient-to-br from-blue-600 to-emerald-800 flex flex-col justify-center items-center lg:w-[450px] md:w-[450px] sm:w-full">
           <div
             className="bg-blue-600 h-full w-full rounded-t-md p-8 flex items-start select-none"
             style={{

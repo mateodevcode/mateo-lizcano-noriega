@@ -41,7 +41,7 @@ function CardContacto() {
           alignItems={"center"}
           marginTop={40}
         >
-          <div className="w-full bg-red-500">
+          <div className="w-full">
             <DatosContacto cerrar={onClose} />
           </div>
         </ModalContent>

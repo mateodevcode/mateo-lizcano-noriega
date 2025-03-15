@@ -11,13 +11,11 @@ export const metadata = {
     "proyectos de desarrollo",
     "trabajos de diseño",
   ],
-  authors: [{ name: "Mateodevcode", url: "https://github.com/mateodevcode" }],
+  authors: [
+    { name: "Mateo Lizcano Noriega", url: "https://github.com/mateodevcode" },
+  ],
 };
 
 export default function Layout({ children }) {
-  return (
-    <>
-      <main>{children}</main>
-    </>
-  );
+  return <>{children}</>;
 }
