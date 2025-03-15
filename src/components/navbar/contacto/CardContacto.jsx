@@ -22,7 +22,7 @@ function CardContacto() {
   return (
     <>
       <div
-        className="mx-4 lg:my-0 md:my-0 sm:my-4 hover:text-blue-600 cursor-pointer font-semibold select-none"
+        className="mx-4 lg:my-0 md:my-0 sm:my-4 text-zinc-500 hover:text-zinc-600 cursor-pointer font-semibold select-none"
         onClick={() => {
           setOverlay(<OverlayOne />);
           onOpen();
@@ -39,8 +39,9 @@ function CardContacto() {
           height={"700px"}
           justifyContent={"center"}
           alignItems={"center"}
+          marginTop={40}
         >
-          <div className="w-full">
+          <div className="w-full bg-red-500">
             <DatosContacto cerrar={onClose} />
           </div>
         </ModalContent>

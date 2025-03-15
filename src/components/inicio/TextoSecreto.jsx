@@ -10,7 +10,7 @@ function TextoSecreto() {
     const typed = new Typed(saludo.current, {
       strings: mensaje_secreto,
       typeSpeed: 80,
-      startDelay: 1000*200,
+      startDelay: 1000 * 200,
     });
 
     return () => {
@@ -19,8 +19,11 @@ function TextoSecreto() {
   }, []);
 
   return (
-    <div className="h-32 mt-5 opacity-20">
-      <span ref={saludo} className="lg:text-sm md:text-sm sm:text-xs text-green-600" />
+    <div className="h-32 mt-5">
+      <span
+        ref={saludo}
+        className="lg:text-sm md:text-sm sm:text-xs text-green-600 opacity-5"
+      />
     </div>
   );
 }

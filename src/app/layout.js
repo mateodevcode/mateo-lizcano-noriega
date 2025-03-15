@@ -13,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={`${inter.className} dark bg-[#eaf8ff] dark:bg-black text-black dark:text-white w-full`}>
+      <body
+        className={`${inter.className} dark bg-[#eaf8ff] dark:bg-black text-black dark:text-white w-full h-screen flex flex-col justify-between items-center`}
+      >
         <Navbar />
         {children}
         <Footer />

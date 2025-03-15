@@ -5,7 +5,7 @@ const EnlaceNav = ({ nombre, LinkTo, target }) => {
     <Link
       href={LinkTo}
       target={target}
-      className="mx-4 lg:my-0 md:my-0 sm:my-4 hover:text-blue-600 cursor-pointer font-semibold"
+      className="mx-4 lg:my-0 md:my-0 sm:my-4 cursor-pointer font-semibold text-zinc-500 hover:text-zinc-600"
     >
       {nombre}
     </Link>

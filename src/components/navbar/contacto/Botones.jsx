@@ -1,37 +1,41 @@
 import Link from "next/link";
 import { BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import { FiDownload } from "react-icons/fi";
+import { VscClose } from "react-icons/vsc";
 
 const Botones = ({ cerrar }) => {
   return (
-    <div className="flex flex-row justify-between items-center mb-5">
+    <div className="flex flex-row justify-center items-center mb-5">
       <Link
         href="https://www.linkedin.com/in/mateo-lizcano-noriega/"
-        className="bg-blue-600 dark:bg-green-600 text-white dark:text-white font-semibold px-4 py-2 rounded-md cursor-pointer hover:bg-blue-600/50 dark:hover:bg-green-600/50 mx-2 select-none"
+        className="text-white font-semibold p-2 rounded-md cursor-pointer mx-1 select-none dark:bg-white/20 dark:hover:bg-white/30"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <BsLinkedin className="cursor-pointer text-2xl" />
+        <BsLinkedin className="text-base" />
       </Link>
       <Link
         href="https://api.whatsapp.com/message/YZ472YWAWRA5E1?autoload=1&app_absent=0"
-        className="bg-blue-600 dark:bg-green-600 text-white dark:text-white font-semibold px-4 py-2 rounded-md cursor-pointer hover:bg-blue-600/50 dark:hover:bg-green-600/50 mx-2 select-none"
+        className="text-white font-semibold p-2 rounded-md cursor-pointer mx-1 select-none dark:bg-white/20 dark:hover:bg-white/30"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <BsWhatsapp className="cursor-pointer text-2xl" />
+        <BsWhatsapp className="text-base" />
       </Link>
       <div className="flex flex-row justify-end items-center">
         <div
-          className="bg-blue-600 dark:bg-green-600 text-white dark:text-white font-semibold px-4 py-2 rounded-md cursor-pointer hover:bg-blue-600/50 dark:hover:bg-green-600/50 mx-2 select-none"
+          className="text-white font-semibold p-2 rounded-md cursor-pointer mx-1 select-none dark:bg-white/20 dark:hover:bg-white/30 text-xs flex flex-row items-center justify-center"
           onClick={() => window.open("/mateo-lizcano.pdf")}
         >
-          Descargar
+          <FiDownload className="text-sm mr-2 ml-1" />{" "}
+          <span className="mr-2">Descargar</span>
         </div>
         <div
-          className="bg-blue-600 dark:bg-green-600 text-white dark:text-white font-semibold px-4 py-2 rounded-md cursor-pointer hover:bg-blue-600/50 dark:hover:bg-green-600/50 mx-2 select-none"
+          className="text-white font-semibold p-2 rounded-md cursor-pointer mx-1 select-none dark:bg-white/20 dark:hover:bg-white/30 text-xs flex flex-row items-center justify-center"
           onClick={cerrar}
         >
-          Cerrar
+          <VscClose className="text-sm mr-2 ml-1" />{" "}
+          <span className="mr-2">Cerrar</span>
         </div>
       </div>
     </div>

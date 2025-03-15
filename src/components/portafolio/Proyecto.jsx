@@ -8,7 +8,9 @@ const Proyecto = ({ titulo, url, github, imagen }) => {
   return (
     <div className="w-10/12 flex flex-col justify-center items-center mb-10">
       <div className="w-full px-10 text-center">
-        <h3 className="lg:text-3xl md:text-3xl sm:text-2xl font-bold mt-10">{titulo}</h3>
+        <h3 className="lg:text-3xl md:text-3xl sm:text-2xl font-bold mt-10">
+          {titulo}
+        </h3>
       </div>
       <div className="w-11/12 mt-10">
         <Link href={url} target="_blank">
@@ -17,7 +19,7 @@ const Proyecto = ({ titulo, url, github, imagen }) => {
             alt={titulo}
             width={2400}
             height={1800}
-            className="w-full"
+            className="w-full object-cover"
           />
         </Link>
       </div>

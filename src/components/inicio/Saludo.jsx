@@ -18,7 +18,7 @@ function Saludo() {
   }, []);
 
   return (
-    <div className="lg:h-28 md:h-24 sm:h-16 lg:text-5xl md:text-4xl sm:text-xl font-bold">
+    <div className="lg:h-28 md:h-24 sm:h-16 lg:text-5xl md:text-4xl sm:text-2xl font-bold">
       <span ref={saludo} />
     </div>
   );

@@ -14,7 +14,7 @@ const Skills = () => {
 
   return (
     <div
-      className="flex flex-row justify-center items-center skill-contenedor"
+      className="flex flex-row justify-center items-center skill-contenedor w-10"
       style={{ width: "200px", height: "200px", margin: "auto" }}
     >
       <ImageGallery

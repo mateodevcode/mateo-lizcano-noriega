@@ -11,16 +11,29 @@ const Recursos = ({ onClose }) => {
       <MenuButton
         as={Button}
         rightIcon={<IoIosArrowDown />}
-        className="hover:text-blue-600 font-semibold lg:my-0 md:my-0 sm:my-4 flex flex-row justify-between items-center mx-2"
+        className="text-zinc-500 hover:text-zinc-600 font-semibold lg:my-0 md:my-0 sm:my-4 flex flex-row justify-between items-center mx-2"
       >
         Recursos
       </MenuButton>
       <MenuList className="bg-blue-800 dark:bg-green-900 text-white rounded-md mt-2 w-72">
         {recursos.map((recurso, index) => (
-          <MenuItem key={index} className="dark:hover:bg-green-600/20 hover:bg-blue-600/20 rounded-md">
-            <Link href={recurso.LinkTo} className="mx-3 my-1 flex flex-row justify-between items-center w-full" onClick={onClose}>
+          <MenuItem
+            key={index}
+            className="dark:hover:bg-green-600/20 hover:bg-blue-600/20 rounded-md"
+          >
+            <Link
+              href={recurso.LinkTo}
+              className="mx-3 my-1 flex flex-row justify-between items-center w-full"
+              onClick={onClose}
+            >
               <span className="mx-2 my-1">{recurso.nombre}</span>
-              <Image alt={recurso.nombre} src={recurso.logo} width={50} height={50} className="w-5" />
+              <Image
+                alt={recurso.nombre}
+                src={recurso.logo}
+                width={50}
+                height={50}
+                className="w-5"
+              />
             </Link>
           </MenuItem>
         ))}
