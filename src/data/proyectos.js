@@ -1,47 +1,37 @@
 export const proyectos_terminados = [
   {
-    titulo: "Wonly - Series y Películas 🎬",
+    titulo: "Plataforma de E-commerce",
+    url: "https://e-commerce.vercel.app/",
+    imagen: "/pages/E-commerce.png",
+    github: "https://github.com/mateodevcode/E-commerce",
+    description:
+      "Plataforma de e-commerce con funcionalidades de login, carrito de compras y checkout.",
+    tecnologias: ["Next.js", "supabase", "Tailwind CSS", "Stripe"],
+  },
+  {
+    titulo: "Bordex - Gestor de Inventario",
+    url: "https://bordex.vercel.app/",
+    imagen: "/pages/bordex.png",
+    github: "https://github.com/mateodevcode/bordex",
+    description:
+      "Software de inventario con manejador de productos, procesos y usuarios + analíticas con PowerBI.",
+    tecnologias: ["Next.js", "PostgreSQL", "Tailwind CSS", "PowerBI"],
+  },
+  {
+    titulo: "Wonly - Pelís y Series",
     url: "https://wonly.vercel.app/",
-    imagen: "/pages/wonly.png",
+    imagen: "/pages/wonly.gif",
     github: "https://github.com/mateodevcode/wonly",
+    description:
+      "Aplicación web para ver películas y series con funcionalidades de búsqueda y favoritos.",
+    tecnologias: ["Next.js", "MongoDB", "Tailwind CSS", "Chakra UI"],
   },
   {
-    titulo: "Movimiento Dynamos - Iglesia Cristiana",
-    url: "https://dynamos-rho.vercel.app",
-    imagen: "/pages/dynamos.png",
-    github: "https://github.com/mateodevcode/dynamos",
-  },
-  {
-    titulo: "Juego de Tetris",
-    url: "https://mateodevcode.github.io/tetris-js",
-    imagen: "/pages/tetris.png",
-    github: "https://github.com/mateodevcode/tetris-js",
-  },
-  {
-    titulo: "Curriculum Vitae",
-    url: "https://mateodevcode.github.io/cv-react/",
-    imagen: "/pages/curriculum-vitae.png",
-    github: "https://github.com/mateodevcode/cv-react",
-  },
-  {
-    titulo: "Juego Snake 🐍",
-    url: "https://mateodevcode.github.io/juego-snake/",
-    imagen: "/pages/juego-snake.png",
-    github: "https://github.com/mateodevcode/juego-snake"
-  }
-];
-
-export const proyectos_en_proceso = [
-  {
-    titulo: "One Second CyberSecurity",
-    url: "https://one-second-cybersecurity.vercel.app/",
-    imagen: "/pages/one-second.png",
-    github: "https://github.com/mateodevcode/one-second-cybersecurity",
-  },
-  {
-    titulo: "Jorge Orozco - Diseñador UX/UI",
-    url: "https://mateodevcode.github.io/jorge-orozco-mancera/",
-    imagen: "/pages/jorge-orozco.png",
-    github: "https://github.com/mateodevcode/jorge-orozco-mancera",
+    titulo: "Seventwo Technology",
+    url: "https://seventwo.tech/",
+    imagen: "/pages/seventwo-3.png",
+    github: "https://github.com/mateodevcode/seventwo",
+    description: "Empresa dedicada al desarrollo de software y ciberseguridad.",
+    tecnologias: ["Next.js", "MongoDB", "Tailwind CSS", "shacdn-ui"],
   },
 ];
