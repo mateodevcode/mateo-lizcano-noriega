@@ -6,7 +6,7 @@ const NavbarLeft = () => {
   return (
     <Link
       href="/"
-      className="flex flex-row justify-center items-center font-semibold lg:mx-2 md:mx-10 sm:mx-4"
+      className="flex flex-row justify-center items-center font-semibold lg:mx-2 md:mx-10 sm:mx-4 my-2"
     >
       <Image
         src={logo.src}

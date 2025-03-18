@@ -9,7 +9,7 @@ export const proyectos_terminados = [
     tecnologias: ["Next.js", "supabase", "Tailwind CSS", "Stripe"],
   },
   {
-    titulo: "Bordex - Gestor de Inventario",
+    titulo: "Gestor de Inventario",
     url: "https://bordex.vercel.app/",
     imagen: "/pages/bordex.png",
     github: "https://github.com/mateodevcode/bordex",

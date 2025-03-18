@@ -7,7 +7,7 @@ import { proyectos_terminados } from "@/data/proyectos";
 
 const Portafolio = () => {
   return (
-    <div className="w-full flex flex-col justify-start items-center xl:px-36 lg:px-5 md:px-5 sm:px-2 smd:px-5 pb-20">
+    <div className="xl:w-10/12 lg:w-full md:w-full sm:w-full flex flex-col justify-start items-center xl:px-10 lg:px-5 md:px-5 sm:px-2 smd:px-5 pb-20">
       <div className="w-full mt-10 p-4">
         <h2 className="lg:text-4xl md:text-4xl sm:text-3xl font-bold">
           Mi Portafolio

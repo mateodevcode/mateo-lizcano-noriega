@@ -1,8 +1,8 @@
 export const recursos = [
   {
-    nombre: "One Second CyberSecurity",
-    LinkTo: "https://one-second-cybersecurity.vercel.app/",
-    logo: "/logo/one-second.png",
+    nombre: "Seventwo Technology",
+    LinkTo: "https://seventwo.tech",
+    logo: "/logo/logo-st-4.png",
   },
   {
     nombre: "Aprende Inglés",
